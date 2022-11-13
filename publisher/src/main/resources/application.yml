@@ -1,3 +1,10 @@
 logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 43.138.178.8 # rabbitmq的ip地址
+    port: 5672
+    virtual-host: /
+    username: chu
+    password: 123321
